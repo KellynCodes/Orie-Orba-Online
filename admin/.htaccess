@@ -1,0 +1,31 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^contact$  contact.php
+RewriteRule ^index$  index.php
+RewriteRule ^completed_deposit$  completed_deposit.php
+RewriteRule ^completed_withdraw$  completed_withdraw.php
+RewriteRule ^investment_request$  investment_request.php
+RewriteRule ^withdrawal_request$  withdrawal_request.php
+RewriteRule ^create_account$  create_account.php
+RewriteRule ^investment_plans$  investment_plans.php
+RewriteRule ^team$  team.php
+RewriteRule ^logout$  logout.php
+RewriteRule ^assets_management$  assets_management.php
+RewriteRule ^crypto_portfolio$  crypto_portfolio.php
+RewriteRule ^market_launchpad$  market_launchpad.php
+RewriteRule ^project$  project.php
+RewriteRule ^new_plans$  new_plans.php
+RewriteRule ^new_services$  new_services.php
+RewriteRule ^all_services$  all_services.php
+RewriteRule ^all_team$  all_team.php
+RewriteRule ^new_team$  new_team.php
+RewriteRule ^login$  login.php
+RewriteRule ^web_info$  web_info.php
+RewriteRule ^blocked_users$  blocked_users.php
+RewriteRule ^user_profile$  user_profile.php
+
+
+
+
